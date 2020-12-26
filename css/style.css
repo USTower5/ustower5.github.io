@@ -37,9 +37,8 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	max-width: 1140px;
-	width: 100%;
 	margin: 0 auto;
-	padding: 45px 30px 0 30px;
+	margin: 45px 30px 0 30px;
 }
 .header__menu__logo {
 	font-size: 42px;
