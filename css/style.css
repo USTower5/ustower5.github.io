@@ -426,9 +426,8 @@ body.lock {
 }
 .form-box {
 	display: block;
-	margin: 0 10px;
+	padding: 0 20px 0 10px;
 	outline: 1px solid aqua;
-	box-sizing: border-box;
 }
 .form__email {
 	display: flex;
