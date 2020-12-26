@@ -166,8 +166,8 @@ body.lock {
 .header  {
 	background-position: center 80px;
 }
-.header__nav {
-	padding: 25px 10px 0 10px;
+.header__nav2 {
+	margin: 65px 10px 0 10px;
 }
 .header__menu__logo {
 	font-size: 25px;

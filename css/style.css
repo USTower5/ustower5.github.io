@@ -33,11 +33,14 @@ a {
 
 }
 .header__nav {
+	display: block;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.header__nav2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 1140px;
-	margin: 0 auto;
 	margin: 45px 30px 0 30px;
 }
 .header__menu__logo {
