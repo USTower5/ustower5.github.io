@@ -439,7 +439,6 @@ body.lock {
 	border: 2px solid #2d7629;
 	border-radius: 3px;
 	opacity: 0.57;
-	box-sizing: border-box;
 }
 .form__email input[type='email'] {
 	padding-left: 30px; 
