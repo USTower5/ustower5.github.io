@@ -4,9 +4,6 @@ body {
 a {
 	text-decoration: none;
 }
-body.lock {
-	overflow: hidden;
-}
 .logo {
 	color: #289122;
 	font-family: "Autumn";
@@ -426,8 +423,7 @@ body.lock {
 }
 .form-box {
 	display: block;
-	padding: 0 20px 0 10px;
-	outline: 1px solid aqua;
+	margin: 0 20px 0 10px;
 }
 .form__email {
 	display: flex;

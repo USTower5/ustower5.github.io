@@ -158,6 +158,9 @@
 .snow {
 	background-size: cover;
 }
+body.lock {
+	overflow: hidden;
+}
 }
 @media screen and (max-width: 600px) {
 .header  {
@@ -188,9 +191,6 @@
 .snowman,
 .content__head__leftsanta  {
 	display: none;
-}
-.form__email {
-	
 }
 .footer {
 	flex-direction: column;
