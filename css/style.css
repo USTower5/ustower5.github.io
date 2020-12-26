@@ -424,6 +424,12 @@ body.lock {
 	left: 42%;
 	background-color: #2d7629;
 }
+.form-box {
+	display: block;
+	margin: 0 10px;
+	outline: 1px solid aqua;
+	box-sizing: border-box;
+}
 .form__email {
 	display: flex;
 	justify-content: space-between;
@@ -434,7 +440,7 @@ body.lock {
 	border: 2px solid #2d7629;
 	border-radius: 3px;
 	opacity: 0.57;
-	margin: 0 10px;
+	box-sizing: border-box;
 }
 .form__email input[type='email'] {
 	padding-left: 30px; 
