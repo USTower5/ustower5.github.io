@@ -4,6 +4,9 @@ body {
 a {
 	text-decoration: none;
 }
+body.lock {
+	overflow: hidden;
+}
 .logo {
 	color: #289122;
 	font-family: "Autumn";
@@ -14,12 +17,23 @@ a {
 	font-weight: 400;
 }
 .header {
-	background-image: url(../img/bg.jpg);
-	background-position: center 130px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	/*min-height: 1038px;
-	height: 100%;*/
+	display: block;
+	width: 100%;
+	min-height: 1200px;
+	position: relative;
+}
+.header:before {
+	  content: '';
+	  width: 100%;
+	  display: block;
+	  min-height: 1038px;
+	  position: absolute;
+	  top: 115px;
+	  background-size: cover;
+	  background-position: center top;
+	  background-repeat: no-repeat;
+	  background-image: url(../img/bg.jpg);
+
 }
 .header__nav {
 	display: flex;
@@ -95,13 +109,14 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 	max-width: 670px;
 	max-height: 460px;
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 220px;
-	padding-bottom: 280px;
+	padding-bottom: 380px;
 }
 .header__content__head {
 	margin-bottom: 60px;
@@ -419,15 +434,13 @@ a {
 	border: 2px solid #2d7629;
 	border-radius: 3px;
 	opacity: 0.57;
+	margin: 0 10px;
 }
 .form__email input[type='email'] {
-	position: relative;
-	top: 0;
-	left: 30px;
+	padding-left: 30px; 
 	outline: 0;
 	border: 0;
 	min-height: 56px;
-	max-width: 455px;
 	width: 100%;
 	font-family: Roboto;
 	font-size: 20px;
@@ -435,9 +448,9 @@ a {
 .form__email button {
 	outline: 0;
 	border: 0;
-	width: 59px;
+	max-width: 59px;
+	width: 100%;
 	min-height: 58px;
-	height: 100%;
 	background: none;
 	cursor: pointer;
 }
