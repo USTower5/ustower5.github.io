@@ -120,14 +120,22 @@
 .header__nav__burger:after {
 	bottom: 0;
 }
+.header__nav__burger.active {
+	position: fixed;
+	top: 30px;
+	right: 10px;
+}
 .header__nav__burger.active span{
+	background: #fff;
 	transform: scale(0);
 }
 .header__nav__burger.active:before {
+	background: #fff;
 	transform: rotate(45deg);
 	top: 9px;
 }
 .header__nav__burger.active:after {
+	background: #fff;
 	transform: rotate(-45deg);
 	bottom: 9px;
 }
